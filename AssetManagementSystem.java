@@ -184,7 +184,7 @@ public class AssetManagementSystem {
         String name = scanner.nextLine();
         System.out.print("Enter Vendor ID: ");
         String vendorId = scanner.nextLine();
-        Vendor vendor = findVendorById(vendorId);
+        Vendor vendor = findVendorById(vendorid);
         if (vendor == null) {
             System.out.println("Vendor not found. Please add the vendor first.");
             return;
